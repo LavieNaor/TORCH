@@ -1,5 +1,11 @@
 # TOR Network Simulation
 
+<div align="center">
+  <a href="https://github.com/LavieNaor/TORCH.git">
+    <img src="images/onion.png" alt="Logo" width="80" height="80">
+  </a>
+</div>
+
 ## Overview
 
 This project implements a simplified TOR-like anonymous communication
@@ -221,11 +227,9 @@ message - the final destination
 
 Possible improvements include:
 
--   Adding dynamic router discovery
--   Implementing stronger encryption
--   Creating a GUI client
--   Adding traffic analysis protection
--   Supporting multiple clients simultaneously
+- Add sending files feature
+- Add voice call and video call feature
+- Add sending voice messages feature
 
 ------------------------------------------------------------------------
 
