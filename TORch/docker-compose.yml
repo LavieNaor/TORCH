@@ -1,0 +1,37 @@
+services:
+  server:
+    build: ./TorProject2
+    container_name: tor_server
+    ports:
+      - "8000:8000"
+    networks:
+      - tor_net
+    restart: unless-stopped
+
+  node1:
+    build: ./Nodes/Node1
+    container_name: tor_node1
+    ports:
+        - "7000:7000"
+    networks:
+      - tor_net
+
+  node2:
+    build: ./Nodes/Node2
+    container_name: tor_node2
+    ports:
+        - "7100:7100"
+    networks:
+      - tor_net
+
+  node3:
+    build: ./Nodes/Node3
+    container_name: tor_node3
+    ports:
+        - "7200:7200"
+    networks:
+      - tor_net
+
+networks:
+  tor_net:
+    driver: bridge

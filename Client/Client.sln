@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorClient", "Client\TorClient.csproj", "{69C63F8D-8AAB-45DF-B300-3E414F6D696F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C63F8D-8AAB-45DF-B300-3E414F6D696F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C63F8D-8AAB-45DF-B300-3E414F6D696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C63F8D-8AAB-45DF-B300-3E414F6D696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C63F8D-8AAB-45DF-B300-3E414F6D696F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E174DC0E-8127-4487-A085-545E6FFFE76C}
+	EndGlobalSection
+EndGlobal
