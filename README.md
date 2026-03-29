@@ -1,4 +1,4 @@
-# TOR Network Simulation
+# TOR Network Chat
 
 <div align="center">
   <a href="https://github.com/LavieNaor/TORCH.git">
