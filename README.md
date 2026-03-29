@@ -75,7 +75,7 @@ allowing the system to run easily on any machine.
 
 ## Project Architecture
 
-Client → Router 1 → Router 2 → Router 3 → Server
+Client → Entry Node → Middle Node → Exit Node → Server
 
 Each router removes one encryption layer before forwarding the message.
 
@@ -156,13 +156,13 @@ python --version
 Clone the project:
 
 ``` bash
-git clone https://github.com/<username>/<repository-name>.git
+git clone https://github.com/LavieNaor/TORCH.git
 ```
 
 Enter the project folder:
 
 ``` bash
-cd <repository-name>
+cd <TORCH>
 ```
 
 ------------------------------------------------------------------------
@@ -183,8 +183,7 @@ docker compose build
 docker compose up
 ```
 
-This command will start: - The C++ server - Router 1 - Router 2 - Router
-3
+This command will start: - The C++ server - Node1 - Node2 - Node3
 
 ------------------------------------------------------------------------
 
@@ -204,7 +203,7 @@ The client will connect to the TOR network through the first router.
 docker ps
 ```
 
-You should see containers for: - server - router1 - router2 - router3
+You should see containers for: - tor_server -Node1 - Node2 - Node3
 
 ------------------------------------------------------------------------
 
